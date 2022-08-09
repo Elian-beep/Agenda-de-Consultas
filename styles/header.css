@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    align-items: center;
+    padding: 3em 1em 2em 1em;
+    gap: 2em;
+}
+
+.header__profile {
+    border-radius: 50%;
+    width: 5em;
+    height: 5em;
+}
+
+.header div{
+    display: flex;
+    gap: .5em;
+    flex-direction: column;
+}
+
+.header__hi {
+    font-weight: 700;
+    font-size: 22px;
+    color: var(--cor-cinza-dark);
+}
+
+.header__newsConsults {
+    font-size: 14px;
+    color: var(--cor-cinza-light);
+}
