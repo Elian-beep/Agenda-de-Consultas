@@ -11,7 +11,7 @@
     height: 5em;
 }
 
-.header div{
+.header div {
     display: flex;
     gap: .5em;
     flex-direction: column;
@@ -26,4 +26,10 @@
 .header__newsConsults {
     font-size: 14px;
     color: var(--cor-cinza-light);
+}
+
+.interface__day {
+    font-weight: 700;
+    font-size: 19px;
+    margin-left: 1.5em;
 }
