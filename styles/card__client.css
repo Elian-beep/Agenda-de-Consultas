@@ -1,0 +1,27 @@
+.card{
+    margin: 1em;
+    background-color: var(--cor-branco);
+    backdrop-filter: blur(22px);
+    border-radius: 8px;
+}
+
+.card__clientContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+.client{
+    display: flex;
+}
+
+.client--profile{
+    display: flex;
+    width: 40px;
+    height: 40px;
+}
+
+.client--textProfile span{
+    display: flex;
+}
