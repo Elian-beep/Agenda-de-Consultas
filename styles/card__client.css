@@ -42,7 +42,7 @@
     margin-top: .3em;
 }
 
-.client--callRemote {
+.client--call {
     font-weight: 400;
     font-size: 12px;
     color: var(--cor-cinza-light);
@@ -93,4 +93,20 @@
     border-radius: 10px;
     font-weight: 500;
     font-size: 15px;
+}
+
+.card_btnLocal {
+    display: flex;
+}
+
+.btnLocal {
+    margin: 1em 1em;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    background: var(--cor-btn-azul);
+    padding: 1em 1.8em;
+    font-weight: 500;
+    font-size: 15px;
+    color: var(--cor-branco);
 }

@@ -29,4 +29,5 @@ body{
 
 .container{
     background-image: var(--cor-gradient-branco);
+    padding-bottom: 1em;
 }
