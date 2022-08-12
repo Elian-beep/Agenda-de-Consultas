@@ -1,27 +1,96 @@
-.card{
+/* AREA DE CIMA DO CARD */
+
+.card {
     margin: 1em;
     background-color: var(--cor-branco);
     backdrop-filter: blur(22px);
     border-radius: 8px;
 }
 
-.card__clientContainer{
+.card__clientContainer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1em;
 }
 
-.client{
+.client {
     display: flex;
 }
 
-.client--profile{
+.client--profile {
     display: flex;
     width: 40px;
     height: 40px;
+    border-radius: 20px;
 }
 
-.client--textProfile span{
+.client--textProfile {
+    margin-left: 1em;
+}
+
+.client--name {
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--cor-cinza-dark);
+    margin-bottom: .3em;
+}
+
+.client--textProfile span {
     display: flex;
+    gap: .5em;
+    margin-top: .3em;
+}
+
+.client--callRemote {
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--cor-cinza-light);
+}
+
+.card__chat {
+    background-color: var(--cor-cinza);
+    padding: 1em;
+    border-radius: 50%;
+}
+
+.card hr {
+    height: 1px;
+    color: var(--cor-cinza-dark);
+}
+
+/* AREA DE BAIXO DO CARD */
+
+.card__timeMarcked {
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--cor-cinza-dark);
+    margin-left: 1em;
+    margin-top: 1em;
+}
+
+.card_btnRemote {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.btnRemote-video {
+    background-color: var(--cor-btn-amarelo);
+    border: none;
+    padding: 1em 1.8em;
+    border-radius: 10px;
+
+    font-weight: 500;
+    font-size: 15px;
+    color: var(--cor-branco);
+}
+
+.btnRemote-audio {
+    padding: 1em 1.8em;
+    border: 1px solid #ECECEC;
+    background-color: var(--cor-branco);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 15px;
 }
