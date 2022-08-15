@@ -1,5 +1,6 @@
 @import url(./styles/header.css);
 @import url(./styles/card__client.css);
+@import url(./styles/menu__bar.css);
 
 :root{
     --fonte-principal: 'Montserrat';
@@ -25,9 +26,12 @@
 
 body{
     font-family: var(--fonte-principal), sans-serif;
+    background-image: var(--cor-gradient-branco);
 }
 
 .container{
     background-image: var(--cor-gradient-branco);
     padding-bottom: 1em;
+    position: relative;
+    margin-bottom: 8vh;
 }
