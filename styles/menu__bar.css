@@ -37,7 +37,7 @@
 }
 .btn__newConss{
     position: fixed;
-    top: 80vh;
+    bottom: 7em;
     right: 1em;
     z-index: 999;
 
@@ -51,7 +51,4 @@
     border: none;
     padding: 2em;
     background-color: var(--cor-btn-azul);
-}
-.btn__newConss:active{
-    background-color: var(--cor-cinza-light);
 }
