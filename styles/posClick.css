@@ -1,8 +1,10 @@
-.pos__clickNewConss{
-    display: block; /* block || none */
+.pos__clickNewConss {
+    display: none;
+    /* block || none */
+    transition: all .5s ease-out;
 }
 
-.pos__bckg{
+.pos__bckg {
     background: var(--cor-preto);
     position: fixed;
     z-index: 99;
@@ -11,53 +13,64 @@
     width: 100vh;
 }
 
-.group__newConss{
+.group__newConss {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.btn__newConssLocal{
+.group_newConssLocal,
+.label__newConssLocal {
     top: 60vh;
 }
 
-.btn__newConssVideo{
+.group_newConssVideo,
+.label__newConssVideo {
     top: 70vh;
 }
 
-.btn__newConssLocal, .btn__newConssVideo{
+.group_newConssLocal,
+.group_newConssVideo {
     display: flex;
     align-items: center;
     justify-content: center;
 
     right: 1em;
     position: fixed;
-
     z-index: 999;
+}
+
+.btn__newConssLocal,
+.btn__newConssVideo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     width: 3em;
     height: 3em;
     border-radius: 50%;
     border: none;
     padding: 2em;
+    margin-left: 1em;
     background-color: var(--cor-btn-azul);
 }
 
-.label__newConssLocal{
-    top: 60vh;
+
+.label__newConssLocal,
+.label__newConssVideo {
+    font-weight: 500;
+    font-size: 15px;
+
+    background-color: var(--cor-branco);
+    border-radius: 20px;
 }
 
-.label__newConssVideo{
-    top: 70vh;
-}
-
-.label__newConssLocal, .label__newConssVideo{
+.label__newConssLocal,
+.label__newConssVideo {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: .5em;
 
-    position: fixed;
-    z-index: 999;
-
-    color: var(--cor-branco);
+    color: var(--cor-cinza-dark);
 }

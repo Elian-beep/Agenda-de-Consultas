@@ -52,3 +52,6 @@
     padding: 2em;
     background-color: var(--cor-btn-azul);
 }
+.btn__newConss:active{
+    background-color: var(--cor-cinza-light);
+}

@@ -18,20 +18,20 @@
 
     <div class="container">
 
-        <div class="pos__clickNewConss">
+        <div class="pos__clickNewConss"> <!-- Será manipulado com JS -->
             <div class="pos__bckg"></div>
 
-            <div class="group_newConss"> <!--TALVEZ SEJA ELIMINADO DO COD-->
+            <div class="group_newConssLocal" id="newConssLocal"> <!--TALVEZ SEJA ELIMINADO DO COD-->
                 <span class="label__newConssLocal">Nova consulta na casa do paciente</span>
                 <button class="btn__newConssLocal">
-                    <img src="./assets/pinfabiconee.svg" alt="Icone de pin local" id="btn__newConss"> <!-- Será manipulado com JS -->
+                    <img src="./assets/pinfabiconee.svg" alt="Icone de pin local" id="btn__newConss">
                 </button>
             </div>
     
-            <div class="group_newConss"> <!--TALVEZ SEJA ELIMINADO DO COD-->
+            <div class="group_newConssVideo" id="newConssVideo"> <!--TALVEZ SEJA ELIMINADO DO COD-->
                 <span class="label__newConssVideo">Nova consulta por vídeo</span>
                 <button class="btn__newConssVideo">
-                    <img src="./assets/Camerafab.svg" alt="Icone de camera" id="btn__newConss"> <!-- Será manipulado com JS -->
+                    <img src="./assets/Camerafab.svg" alt="Icone de camera" id="btn__newConss">
                 </button>
             </div>
         </div>
@@ -421,6 +421,8 @@
         </section>
 
     </div>
+
+    <script src="./newConss.js"></script>
 </body>
 
 </html>
