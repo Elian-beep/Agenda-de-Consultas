@@ -1,6 +1,7 @@
 @import url(./styles/header.css);
 @import url(./styles/card__client.css);
 @import url(./styles/menu__bar.css);
+@import url(./styles/posClick.css);
 
 :root{
     --fonte-principal: 'Montserrat';

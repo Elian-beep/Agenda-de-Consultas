@@ -1,0 +1,63 @@
+.pos__clickNewConss{
+    display: block; /* block || none */
+}
+
+.pos__bckg{
+    background: var(--cor-preto);
+    position: fixed;
+    z-index: 99;
+    opacity: .6;
+    height: 100vh;
+    width: 100vh;
+}
+
+.group__newConss{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn__newConssLocal{
+    top: 60vh;
+}
+
+.btn__newConssVideo{
+    top: 70vh;
+}
+
+.btn__newConssLocal, .btn__newConssVideo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    right: 1em;
+    position: fixed;
+
+    z-index: 999;
+
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    border: none;
+    padding: 2em;
+    background-color: var(--cor-btn-azul);
+}
+
+.label__newConssLocal{
+    top: 60vh;
+}
+
+.label__newConssVideo{
+    top: 70vh;
+}
+
+.label__newConssLocal, .label__newConssVideo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: fixed;
+    z-index: 999;
+
+    color: var(--cor-branco);
+}
