@@ -21,12 +21,12 @@
 
 .group_newConssLocal,
 .label__newConssLocal {
-    top: 60vh;
+    bottom: 12em;
 }
 
 .group_newConssVideo,
 .label__newConssVideo {
-    top: 70vh;
+    bottom: 17em;
 }
 
 .group_newConssLocal,
